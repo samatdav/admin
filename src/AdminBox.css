@@ -1,0 +1,19 @@
+.AdminBox {
+	width: calc(25% - 40px);
+	height: 100px;
+	background-color: yellow;
+	margin: 20px;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.AdminBoxText {
+	line-height: 60px;
+}
+
+@media screen and (max-width: 900px) {
+	.AdminBox {
+		width: calc(50% - 40px);
+	}
+}
